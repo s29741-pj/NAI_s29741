@@ -52,7 +52,7 @@ class Board:
         r_step = 8
         l_step = 6
         matches = False
-        
+
         for row in range(3):
             for col in range(6):
                 idx = row * 7 + col
@@ -62,36 +62,21 @@ class Board:
                         self.board[idx + 2 * r_step] == self.token,
                         self.board[idx + 3 * r_step] == self.token,
                     ]
-                    
+
                     if all(matches):
                         return True
-                
+
                 if self.board[idx] == self.token and col >= 3:
                     matches = [
                         self.board[idx + l_step] == self.token,
                         self.board[idx + 2 * l_step] == self.token,
                         self.board[idx + 3 * l_step] == self.token,
                     ]
-                
+
                     if all(matches):
                         return True
-        
+
         return False
-        
-        # l_step = 6
-        # for row in range(3):
-        #     for col in range(3, 7):
-        #         idx = row * 7 + col
-        #         if self.board[idx] == self.token:
-        #             matches = [
-        #                 self.board[idx + l_step] == self.token,
-        #                 self.board[idx + 2 * l_step] == self.token,
-        #                 self.board[idx + 3 * l_step] == self.token,
-        #             ]
-        #             if all(matches):
-        #                 return True
-
-
 
     def clear_field(self, idx):
         self.board[idx] = " "
@@ -140,8 +125,7 @@ def main():
     board.fill_field(11)
     board.fill_field(19)
     # board.fill_field(27)
-    
-    
+
     # board.fill_field(3)
     # board.fill_field(9)
     # board.fill_field(15)
