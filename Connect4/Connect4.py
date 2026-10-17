@@ -10,8 +10,8 @@ Zasady gry:
     Jeśli plansza zapełni się bez zwycięzcy, jest remis.
 
 Autorzy:
-    - Imię Nazwisko (nr indeksu)
-    - Imię Nazwisko (nr indeksu)
+    - Jakub Kolad (s29741)
+    - Igor Czeczot (s36735)
 
 Przygotowanie środowiska:
     1. Zainstaluj Pythona 3.10 lub nowszego (https://www.python.org/downloads/).
