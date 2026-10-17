@@ -15,8 +15,8 @@ W skrócie:
 
 ## Autorzy
 
-- Imię Nazwisko (nr indeksu)
-- Imię Nazwisko (nr indeksu)
+- Jakub Kolad
+- Igor Czeczot
 
 ## Przygotowanie środowiska
 
